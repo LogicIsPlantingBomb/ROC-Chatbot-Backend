@@ -24,7 +24,7 @@ try:
     if not hf_api_key:
         raise ValueError("HUGGINGFACE_API_TOKEN not found in .env file")
     llm_endpoint = HuggingFaceEndpoint(
-        repo_id="distilbert/distilgpt2",
+        repo_id="meta-llama/Llama-3.1-8B-Instruct",
         task="text-generation",
         max_new_tokens=512,
         temperature=0.7,
