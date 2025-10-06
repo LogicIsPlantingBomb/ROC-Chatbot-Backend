@@ -1,0 +1,12 @@
+langchain-huggingface
+langchain-community
+langchain-core
+langchain
+sentence-transformers
+faiss-cpu
+torch
+python-dotenv
+fastapi
+uvicorn
+gunicorn
+ddgs
