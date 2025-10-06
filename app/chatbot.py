@@ -24,7 +24,7 @@ try:
     if not hf_api_key:
         raise ValueError("HUGGINGFACE_API_TOKEN not found in .env file")
     llm_endpoint = HuggingFaceEndpoint(
-        repo_id="TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+        repo_id="mistralai/Mistral-7B-Instruct-v0.3",
         task="text-generation",
         max_new_tokens=512,
         temperature=0.7,
